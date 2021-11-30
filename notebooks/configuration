@@ -1,0 +1,11 @@
+import os
+import dotenv
+import sqlalchemy as alch
+from getpass import getpass
+dotenv.load_dotenv()
+
+sql_pass = getpass("sql_pass")
+dbName = "pulp_fiction_dialogue"
+data_connection = print(f"mysql+pymysql://root:{sql_pass}@localhost/{dbName}")
+engine = alch.create_engine(data_connection)
+print("Connection Completed")
