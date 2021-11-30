@@ -1,15 +1,17 @@
-![](/images/pulp_trav_sam)
+![](/images/pulp_trav_sam.jpg)
 
 
-Description: You've been web-scrapping and querying databases for data. Now you will be the data provider 🎉.
+## Description
 
-For that, you will create your own API. This API will be able to receive information, store it, or serve it when needed.
+The following project consists on becoming a data provider, by creating my own API which can receive information, store it, and serve it when needed.
 
-In this project, you will practice:
+In this project, I practice:
 
 Flask (API creation)
 SQL
 NLTK (sentiment analysis)
+
+Specifically the projects looks at the film script from Quentin Tarantino's masterpiece Pulp Fiction.
 
 
 ## Project Goals
@@ -31,11 +33,10 @@ https://api.slack.com/
 ## Example's - API Endpoints
 
 # 1. Endpoints GET
-(GET) /users Returns every user in the database.
+(GET) /actors Returns every actor in the database.
 
-(GET) /messages Returns every message sent in every chat.
+(GET) /places Returns every place sent in every chat.
 
-(GET) /<chat_name>/<user> Returns every message sent in a given chat.
 
 # 2. Endpoint POST
 (POST) /chat/<chat_id> Creates a chat
@@ -45,10 +46,12 @@ https://api.slack.com/
 (POST) /chat/<chat_id>/message Adds a message from a user to a given chat.
 
 # Links - API dev in python
-[https://bottlepy.org/docs/dev/]
-[https://www.getpostman.com/]
+[]
+[]
 
-# Links - NLP & Text Sentiment Analysis
+# API Documentation
+Here I include a step by step of how to do the API
+
 [https://www.nltk.org/]
 [https://towardsdatascience.com/basic-binary-sentiment-analysis-using-nltk-c94ba17ae386]
 [https://www.digitalocean.com/community/tutorials/how-to-perform-sentiment-analysis-in-python-3-using-the-natural-language-toolkit-nltk]
