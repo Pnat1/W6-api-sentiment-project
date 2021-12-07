@@ -44,7 +44,7 @@ def places():
     said their lines.
     """
     query = f"""
-    SELECT place FROM place;
+    SELECT place FROM places;
     """
     data = pd.read_sql_query(query, engine)
     return data.to_json(orient='records')

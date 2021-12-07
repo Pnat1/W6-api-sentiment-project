@@ -10,9 +10,15 @@ def inicio():
     return "Hello World!"
 
 
-@app.route("/actors")
+@app.route("/film_characters")
 def gimme_characters():
     x = sqt.actor_characters()
+    return jsonify(x)
+
+
+@app.route("/sceenery")
+def gimme_characters():
+    x = sqt.places()
     return jsonify(x)
 
 
